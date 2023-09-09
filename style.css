@@ -1,0 +1,49 @@
+*{
+    background: plum;
+    box-sizing: border-box;
+    padding: 0;
+   
+}
+
+body{
+    display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-color: powderblue;
+                
+}
+
+.container{
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 25px 25px 20px rgba(31, 31, 32, 0.04) ;
+    padding: 10px 20px 20px;
+    border-radius: 15px;
+}
+
+.circle img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: block;
+}
+
+img{
+    margin: 0 auto;
+border: 1px solid blueviolet;
+}
+
+span{
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    color: powderblue;
+}
